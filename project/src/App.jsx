@@ -5,7 +5,7 @@ import { Header } from "./Header.jsx";
 import ServicesPage from "./ServicesPage";
 import ServiceChatPage from "./ServiceChatPage";
 import Login from "./Login";
-import Signup from "./Signup.jsx";
+import Signup from "./Signup.jsx"; // This line assumes Signup.jsx is in the SAME directory as App.jsx (src/)
 import ContactUs from "./ContactUs";
 import AboutUs from "./AboutUs";
 import Resources from "./Resources";
