@@ -1,0 +1,17 @@
+# Netlify build configuration
+[build]
+  # Command to build your site (assuming you use npm)
+  command = "npm run build"
+  
+  # Directory where the build output is located (should match Vite's outDir)
+  publish = "dist"
+  
+  # The base directory for the build context (usually the root)
+  # base = "/" # Uncomment if your project isn't in the root of the repository
+
+# Redirect rule for Single Page Applications (SPAs)
+# This ensures that direct navigation to routes like /about works correctly
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
