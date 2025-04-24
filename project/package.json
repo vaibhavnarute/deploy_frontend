@@ -12,8 +12,10 @@
     "@react-three/drei": "^10.0.5",
     "@react-three/fiber": "^9.1.1",
     "@supabase/supabase-js": "^2.45.0",
+    "i18next": "^25.0.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-i18next": "^15.5.1",
     "react-icons": "^4.11.0",
     "react-router-dom": "^7.3.0",
     "three": "^0.175.0"
